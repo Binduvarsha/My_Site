@@ -9,61 +9,79 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <div class="first-container">
-        <img class="top-cloud" src="cloud.png" alt="">
-        
-        <h1>I'm Bindu.</h1>
-        <h2><span>CSE </span>Student.</h2>
-        <img class="bottom-cloud" src="cloud.png" alt="">
-        <img class="mountain" src="mountain.png" alt="">
-    </div>
-    
+    <header>
+        <div class="header-container">
+            <h1>I'm Bindu.</h1>
+            <h2>CSE(AIML) Student.</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-    <div class="middle-container">
+    <div class="first-container" id="about">
         <div class="profile">
-          <img class="profile-photo" src="Bindu_photo.png" alt="">
-          <h2>Hello.</h2>
-          <p class="intro-para">I am a cse student and I am pretty cool curious about front-end development</p>
+            <img class="profile-photo" src="images/bpphoto-modified.png" alt="Profile Photo">
+            <h2>Hello.</h2>
+            <p class="intro-para">I am a CSE(AIML) student & I am pretty cool curious about tech.</p>
         </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="code-gif" src="https://media.giphy.com/media/5Lmn42BCOy99RaGRP7/giphy.gif" alt="">
-            <h3>Competitive Programming</h3>
-            <p >I started learning coding at the age of 16 with C programming and meanwhile got familiar with Java, Python, HTML, DSA,CSS.</p>
-          </div>
-          <div class="skill-row">
-            <img class="chilli"  src="sweets_photo.png" alt="">
-            <h3>Milk sweets challenge</h3>
-            <p >But my best skill is eating milk sweets. I am the undisputed queen of milk sweet challenges.All sweets are my favorite.</p>
-          </div>
+    </div>
+
+    <div class="middle-container" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <p>Python, C, Java, C++, SQL, Shell Scripting, DSA, HTML, CSS, Bootstrap, Django, Git, Figma, GCP services, Azure, AWS services, Poster Designing</p>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <p>Observation, Decision making, Communication, Positive mindset, Self motivated</p>
+            </div>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>If you love milk sweets as much I do.</h3>
-          <p class="likesweet-para">Love milk sweets as much I do? Let's talk about how awesome they are! We can code while we eat milk sweets!.</p>
-          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+
+    <div class="middle-container" id="projects">
+        <h2>Projects</h2>
+        <div class="project-row">
+            <h3><a href="https://binduvarsha.github.io/ACM_VVIT_GUNTUR/" target="_blank" class="project-link">VVIT ACM Student Chapter Website Clone</a></h3>
+            <p>Technologies used: HTML, CSS, Bootstrap, JavaScript</p>
         </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        
-        <p class="surname">© Bindu Varsha Yaddanapudi </p>
-      </div>
-      
-    
-    
+        <div class="project-row">
+            <h3><a href="https://binduvarsha.github.io/TonyDog/" target="_blank" class="project-link">Dog Selling Website</a></h3>
+            <p>Technologies used: HTML, CSS</p>
+        </div>
+        <div class="project-row">
+            <h3><a href="https://binduvarsha.github.io/My_Site/" target="_blank" class="project-link">Portfolio Website</a></h3>
+            <p>Technologies used: HTML, CSS</p>
+        </div>
+        <div class="project-row">
+            <h3><a href="https://github.com/Binduvarsha/Automated-Email-System" target="_blank" class="project-link">Automatic Email Sending Webapp (In Progress)</a></h3>
+            <p>Technologies used: Python, Flask</p>
+        </div>
+    </div>
+
+    <div class="middle-container" id="contact">
+        <h2>Contact Me</h2>
+        <p>I am open to collaborate & work on interesting projects</p>
+        <a class="btn" href="mailto:binduvarsha2004@gmail.com">CONTACT ME</a>
+    </div>
+
+    <footer>
+        <a class="footer-link" href="https://github.com/Binduvarsha" target="_blank">GitHub</a>
+        <a class="footer-link" href="https://www.linkedin.com/in/bindu-varsha-yaddanapudi-80a7b0243/">LinkedIn</a>
+        <!-- <a class="footer-link" href="https://twitter.com/">Twitter</a> -->
+        <p class="surname">© Bindu Varsha Yaddanapudi</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
